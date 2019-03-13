@@ -31,7 +31,7 @@ void setup() {
 void loop() {
     RL.readLines("sample-file.txt", [](char* line, int index) {
         Serial.println(String(line) + " " + String(index));
-    })
+    });
 }
 ```
 
@@ -41,7 +41,7 @@ void loop() {
 /** add above setup code here */
 
 void loop() {
-    RL.readLines("sample-file.txt", &handleEachLine)
+    RL.readLines("sample-file.txt", &handleEachLine);
 }
 
 void handleEachLine(char line[], int lineIndex) {
