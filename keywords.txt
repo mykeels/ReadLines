@@ -2,16 +2,16 @@
 # Library (KEYWORD3)
 #######################################
 
-ReadLines KEYWORD3
+ReadLines	KEYWORD3
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-RL KEYWORD1
+RL	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-readLines KEYWORD2
+readLines	KEYWORD2
